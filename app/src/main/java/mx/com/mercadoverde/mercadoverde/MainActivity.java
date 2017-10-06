@@ -19,7 +19,7 @@ private WebView myWebView;
         myWebView = (WebView)findViewById(R.id.activity_main_webview);
         WebSettings webSettings = myWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
-        myWebView.loadUrl("https://www.mercadoverde.com.mx");
+        myWebView.loadUrl("https://blog-mercado-verde.herokuapp.com");
         myWebView.setWebViewClient(new WebViewClient());
 
 
